@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 KEY_ID = os.getenv('AMADEUS_API_KEY')
 KEY_SECRET = os.getenv('AMADEUS_API_SECRET')
+END_POINT = os.getenv('FLIGHT_SEARCH_API')
 
 
 
